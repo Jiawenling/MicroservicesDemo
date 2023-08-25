@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C3787494-DC22-48B9-BB1B-A8C68482F7CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuctionService", "src\AuctionService\AuctionService.csproj", "{31AC0713-E871-430E-A1B6-2BD1EAC10394}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A1969C5C-1EE8-48C4-AAF2-B267F19869FF}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{31AC0713-E871-430E-A1B6-2BD1EAC10394}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31AC0713-E871-430E-A1B6-2BD1EAC10394}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31AC0713-E871-430E-A1B6-2BD1EAC10394}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31AC0713-E871-430E-A1B6-2BD1EAC10394}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{31AC0713-E871-430E-A1B6-2BD1EAC10394} = {C3787494-DC22-48B9-BB1B-A8C68482F7CE}
+	EndGlobalSection
+EndGlobal
